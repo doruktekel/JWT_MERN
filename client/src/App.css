@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  background-color: blanchedalmond;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+.container-child {
+  width: 100%;
+  margin: auto;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
